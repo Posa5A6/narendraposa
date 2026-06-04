@@ -55,7 +55,7 @@ export default function Hero() {
           </p>
           <div className="mt-7 grid gap-3 min-[520px]:grid-cols-2 sm:mt-8 sm:flex sm:flex-wrap">
             <a href="#projects" className="neon-button">Explore Projects</a>
-            <a href="/Narendra-Resume.pdf" className="neon-button secondary">Download Resume</a>
+            <a href="/Narendra-Resume.pdf" download="Narendra-Resume.pdf" className="neon-button secondary">Download Resume</a>
             <a href="#contact" className="neon-button secondary">Contact Me</a>
             <a href="#github" className="neon-button ghost">Launch System</a>
           </div>
